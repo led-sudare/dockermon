@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    overflow: hidden;
+    font: small "Arial";
+}
+
+.table {
+    display:table;
+}
+.row{
+    display:table-row;
+}
+.row>div{
+    display: table-cell;
+    margin:5px;
+    padding:5px;
+}
+.graph{
+    position: relative;
+    vertical-align: middle;
+    width: 60vw;
+    height: 20vh;
+}
+.text{
+    vertical-align: middle;
+}
